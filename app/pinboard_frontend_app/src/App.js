@@ -15,9 +15,9 @@ const trashIcon = <FontAwesomeIcon icon={faTrashAlt} size="2x" />;
 //URL
 let baseURL = process.env.REACT_APP_BASEURL;
 if (process.env.NODE_ENV === "development") {
-  baseURL = "http://localhost:3001";
+  baseURL = "http://localhost:3000";
 } else {
-  baseURL = "https://pin-board-carmen.herokuapp.com/";
+  baseURL = "https://sleepy-harbor-02264.herokuapp.com/";
 }
 
 class App extends React.Component {
