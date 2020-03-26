@@ -17,7 +17,7 @@ let baseURL = process.env.REACT_APP_BASEURL;
 if (process.env.NODE_ENV === "development") {
   baseURL = "http://localhost:3000";
 } else {
-  baseURL = "https://sleepy-harbor-02264.herokuapp.com/";
+  baseURL = "https://sleepy-harbor-02264.herokuapp.com/home";
 }
 
 class App extends React.Component {
