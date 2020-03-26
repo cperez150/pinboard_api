@@ -1,5 +1,5 @@
 {
-  "name": "pinboard_frontend_app",
+  "name": "client",
   "version": "0.1.0",
   "proxy": {
     "/api": {
@@ -49,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
   }
 }
