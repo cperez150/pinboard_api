@@ -15,7 +15,7 @@ const trashIcon = <FontAwesomeIcon icon={faTrashAlt} size="2x" />;
 //URL
 let baseURL = process.env.REACT_APP_BASEURL;
 if (process.env.NODE_ENV === "development") {
-  baseURL = "http://localhost:3001/api/v1/";
+  baseURL = "http://localhost:3001";
 } else {
   baseURL = "https://sleepy-harbor-02264.herokuapp.com";
 }
