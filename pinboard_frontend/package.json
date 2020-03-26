@@ -1,11 +1,7 @@
 {
   "name": "pinboard_frontend",
   "version": "0.1.0",
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:3001"
-    }
-  },
+  "proxy": "http://localhost:3001",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
