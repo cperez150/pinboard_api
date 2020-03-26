@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "pinboard_frontend",
   "version": "0.1.0",
   "proxy": {
     "/api": {
