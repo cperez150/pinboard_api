@@ -1,3 +1,5 @@
+
+module Api::V1
 class PinsController < ApplicationController
   before_action :set_pin, only: [:show, :update, :destroy]
 
@@ -48,4 +50,5 @@ class PinsController < ApplicationController
     def pin_params
       params.require(:pin).permit(:img, :description, :title, :category, :creator)
     end
+end
 end
